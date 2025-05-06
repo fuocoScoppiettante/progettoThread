@@ -10,5 +10,11 @@ public class App {
             lista[i]= new corridore(nomi[i]);
             lista[i].start();
         }
+
+        for(int i=0; i<4; i++){
+            lista[i].join();
+        }
+        
+        System.out.println("GARA FINITA");
     }
 }
